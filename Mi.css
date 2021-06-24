@@ -1,0 +1,122 @@
+*{
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+      background-color: #ececec;
+      background-image: url(./Assets/banner2.png);
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+}
+nav{display: flex;position: relative; transition: .3s ease;}
+.logo{
+      padding: 5px 30px;
+      width: 180px;
+      cursor: pointer;
+}
+.search{
+      top: 25px;
+      position: relative;
+      margin-left: calc(50vw - 340px);
+      border-radius: 20px;
+      background-color: #a1ae9a ;
+      align-items: center;
+      padding: 5px;
+      height: 20px;
+      width: 160px;
+}
+.search input{
+      text-align: center;
+      color: #024c0d;
+      width: 160px;
+      background-color: #a1ae9a ;
+      border: 0;
+}
+.search input:focus{outline: 0;}
+.search i{
+      position: absolute;
+      color:#024c0d;
+      font-size: 20px;
+      right: 15px;
+      cursor: pointer;
+}
+ul{
+      right: 0;
+      position: absolute;
+      padding-left: 20px;
+      display: flex;
+      list-style: none;
+}
+li{
+      padding: 10px 20px;
+}
+nav ul a{
+      display: inline-block;
+      color: #003300;
+      text-decoration: none;
+      padding: 20px 10px;
+      position: relative;
+}
+nav ul  li:nth-child(1) a:after{
+      content: '';
+      background-color: #024c0d;
+      height: 2px;
+      width: 100%;
+      display: block;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+}
+nav ul a:hover::after{
+      content: '';
+      background-color: #024c0d;
+      height: 2px;
+      width: 100%;
+      display: block;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+}
+.body{
+      height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+}
+h1{
+      color: #003300;
+      FONT-SIZE: 65px;
+      width: 50vw;
+      text-align: center;
+      letter-spacing: 2px;
+}
+h3{
+      text-align: center;
+      color: #336633;
+      font-size: 25px;
+      letter-spacing: 1px;
+}
+footer{
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: -95px;
+}
+footer button{
+      background-color: #003300;
+      border-radius: 20px;
+      border:0;
+      padding: 5px 30px;
+      width: 200px;
+      font-size: 25px;
+      color: #ececec;
+      letter-spacing: 2px;
+      cursor: pointer;
+}
+footer button:hover{
+      background-color:#336633 ;
+}
