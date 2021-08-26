@@ -1,5 +1,1 @@
-# MIPARA
-
-# LINK : 
-
-https://mipara.netlify.app/
+# LINK : https://mipara.netlify.app/
